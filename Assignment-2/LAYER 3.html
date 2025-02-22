@@ -1,0 +1,104 @@
+<style>
+.book-recommendation {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  padding-top: 8px;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+  margin: 0 auto;
+  font: 400 20px Inter, sans-serif;
+}
+
+.recommendation-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 948px;
+  width: 100%;
+  padding: 122px 27px 199px;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.book-cover {
+  aspect-ratio: 0.72;
+  object-fit: contain;
+  object-position: center;
+  width: 175px;
+  align-self: center;
+  max-width: 100%;
+}
+
+.recommendation-text {
+  position: relative;
+  margin: 33px 0 -40px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+</style>
+
+<div class="book-recommendation">
+  <div class="recommendation-container">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/75e4690655998adf22469ec1c3d5d7026d14eceaf26c1ab9c76bc723f5eea4d1?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="background-image"
+      alt=""
+    />
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/51121a8fae0abca5f43117b1c5a2843cf2d48aeba4c5c7aa2f0762f59b252320?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="book-cover"
+      alt="Cover of The Innovators Behind Leonardo book"
+    />
+    <p class="recommendation-text">
+      <a
+        href="https://www.linkedin.com/in/fabrizioconicella/?ref=pesec.no"
+        class="underline"
+        target="_blank"
+      >
+        Fabrizio Conicella
+      </a>
+       recommended
+      <a
+        href="https://www.springer.com/gp/book/9783319904481?ref=pesec.no"
+        class="underline"
+        target="_blank"
+      >
+        The Innovators Behind Leonardo
+      </a>
+      : The True Story of the Scientific and Technological Renaissance:
+      <br />
+      This engaging book places Leonardo da Vinci's scientific achievements
+      within the wider context of the rapid development that occurred during the
+      Renaissance. It demonstrates how his contributions were not in fact born
+      of isolated genius, but rather part of a rich period of collective
+      advancement in science and technology, which began at least 50 years prior
+      to his birth.
+    </p>
+  </div>
+</div>

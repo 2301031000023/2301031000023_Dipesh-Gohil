@@ -1,0 +1,98 @@
+<style>
+.book-review-container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  padding-top: 12px;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+  margin: 0 auto;
+  font: 400 20px Inter, sans-serif;
+}
+.book-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 944px;
+  width: 100%;
+  padding: 113px 59px 113px 25px;
+}
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.book-cover {
+  aspect-ratio: 0.67;
+  object-fit: contain;
+  object-position: center;
+  width: 173px;
+  align-self: center;
+  max-width: 100%;
+}
+.book-description {
+  position: relative;
+  margin-top: 31px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.underlined-link {
+  text-decoration: underline;
+}
+</style>
+
+<div class="book-review-container">
+  <div class="book-content-wrapper">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f70b2d7189589b042afb1655f3b429793677b259cdb951951d2ae3707aa8765c?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="background-image"
+      alt=""
+    />
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c5a84f478151f3d919210b89a14cc78ce8e45115249a79c0d275ac484c24785?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="book-cover"
+      alt="Cover of the book 'Why Greatness Cannot Be Planned'"
+    />
+    <div class="book-description">
+      <h2 class="visually-hidden">Book Review</h2>
+      <ul>
+        <li>
+          <a
+            href="https://www.springer.com/gp/book/9783319155234?ref=pesec.no"
+            class="underlined-link"
+            target="_blank"
+          >
+            Why Greatness Cannot Be Planned
+          </a>
+          : The Myth of the Objective
+        </li>
+      </ul>
+      <p>
+        Why does modern life revolve around objectives? From how science is
+        funded, to improving how children are educated -- and nearly everything
+        in-between -- our society has become obsessed with a seductive illusion:
+        that greatness results from doggedly measuring improvement in the
+        relentless pursuit of an ambitious goal. In Why Greatness Cannot Be
+        Planned, Stanley and Lehman begin with a surprising scientific discovery
+        in artificial intelligence that leads ultimately to the conclusion that
+        the objective obsession has gone too far
+      </p>
+    </div>
+  </div>
+</div>

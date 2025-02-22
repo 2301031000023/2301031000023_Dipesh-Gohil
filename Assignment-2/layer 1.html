@@ -1,0 +1,110 @@
+<style>
+.book-recommendation-container {
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  color: #000;
+  margin: 0 auto;
+  font: 400 24px Inter, sans-serif;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 956px;
+  width: 100%;
+  padding: 60px 61px 152px;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main-title {
+  position: relative;
+  background-color: #160404;
+  border-radius: 50%;
+  align-self: center;
+  width: 290px;
+  max-width: 100%;
+  color: #fff;
+  padding: 35px 46px 74px;
+  text-align: center;
+}
+
+.apple-button {
+  position: relative;
+  border-radius: 50px;
+  background-color: #d76e6e;
+  margin-top: 81px;
+  padding: 15px 39px;
+}
+
+.google-button {
+  position: relative;
+  border-radius: 50px;
+  background-color: #ce7979;
+  margin-top: 53px;
+  padding: 11px 39px;
+}
+
+.signin-button {
+  position: relative;
+  border-radius: 50px;
+  background-color: #e39191;
+  margin-top: 185px;
+  padding: 10px 70px 26px;
+}
+
+.signup-button {
+  position: relative;
+  border-radius: 50px;
+  background-color: #f4a5a5;
+  margin: 31px 0 -30px;
+  padding: 14px 70px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
+<div class="book-recommendation-container">
+  <div class="content-wrapper">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d1da5506907aae493fa6d8e1bd9a966c31f97c49d6ae9ed0fc9d7bc4c51b9d1?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="background-image"
+      alt=""
+    />
+    <h1 class="main-title">
+      Crowdsource
+      <br />
+      Book
+      <br />
+      Recommendation
+    </h1>
+    <button class="apple-button" tabindex="0">continues with Apple</button>
+    <button class="google-button" tabindex="0">continues with Google</button>
+    <button class="signin-button" tabindex="0">SIGN IN</button>
+    <button class="signup-button" tabindex="0">SIGN UP</button>
+  </div>
+</div>

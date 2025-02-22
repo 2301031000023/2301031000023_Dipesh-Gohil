@@ -1,0 +1,104 @@
+<style>
+.recommended-book-container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+  margin: 0 auto;
+  font: 400 20px Inter, sans-serif;
+}
+
+.book-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 956px;
+  width: 100%;
+  padding: 128px 47px 128px 23px;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.book-cover {
+  aspect-ratio: 0.72;
+  object-fit: contain;
+  object-position: center;
+  width: 210px;
+  align-self: center;
+  max-width: 100%;
+}
+
+.book-description {
+  position: relative;
+  margin: 35px 0 -30px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+</style>
+
+<div class="recommended-book-container">
+  <div class="book-content">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d1da5506907aae493fa6d8e1bd9a966c31f97c49d6ae9ed0fc9d7bc4c51b9d1?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="background-image"
+      alt=""
+    />
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/6ab907f34f1fa70a743b2c081c3bc1fdbb44e2123923a7ce6c3f184d682a6cae?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="book-cover"
+      alt="Cover of A changemaker's guide to the future"
+    />
+    <p class="book-description">
+      <a
+        href="https://www.linkedin.com/in/martinamarkulin/?ref=pesec.no"
+        class="underline"
+        target="_blank"
+      >
+        Martina Markulin
+      </a>
+       recommended
+      <a
+        href="https://issuu.com/lendagertcw/docs/achangemakersguidetothefuture_2.udg?ref=pesec.no"
+        class="underline"
+        target="_blank"
+      >
+        A changemaker's guide to the future
+      </a>
+      :
+      <br />
+      Imagine a world without resource scarcity, where our behaviour doesn't
+      have a negative impact on our climate, where waste doesn't exist, where
+      sustainability and growth are each other's prerequisites. To us, this
+      world is real. More than ever, it is time to change the sustainability
+      narrative along with the structure of our modern society. Because the
+      world as we know it is changing. Digitalisation, globalisation,
+      urbanisation, climate change, the fourth industrial revolution.
+    </p>
+  </div>
+</div>

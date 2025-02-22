@@ -1,0 +1,107 @@
+<style>
+.book-recommendation {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+  margin: 0 auto;
+  font: 400 20px Inter, sans-serif;
+}
+
+.recommendation-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 956px;
+  width: 100%;
+  padding: 149px 18px;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.book-cover {
+  aspect-ratio: 0.69;
+  object-fit: contain;
+  object-position: center;
+  width: 183px;
+  align-self: center;
+  max-width: 100%;
+}
+
+.book-description {
+  position: relative;
+  margin: 17px 0 -34px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.underline-link {
+  text-decoration: underline;
+}
+</style>
+
+<div class="book-recommendation">
+  <div class="recommendation-container">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d1da5506907aae493fa6d8e1bd9a966c31f97c49d6ae9ed0fc9d7bc4c51b9d1?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="background-image"
+      alt=""
+    />
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/445e1dad6367c60a3411da61c61a415e07a0bb18565c315db913e18071c5989d?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="book-cover"
+      alt="Cover of The Second Curve book"
+    />
+    <div class="book-description">
+      <a
+        href="https://www.linkedin.com/in/hamidehiraj/?ref=pesec.no"
+        class="underline-link"
+        target="_blank"
+      >
+        Hamideh Iraj
+      </a>
+       recommended three books:
+      <ul>
+        <li>
+          <a
+            href="https://www.penguin.co.uk/books/109/1098804/the-second-curve/9781847941343.html?ref=pesec.no"
+            class="underline-link"
+            target="_blank"
+          >
+            The Second Curve
+          </a>
+          : Thoughts on Reinventing Society
+        </li>
+      </ul>
+      In The Second Curve, Handy builds on a life's work to glimpse into the
+      future and see what challenges and opportunities lie ahead. He looks at
+      current trends in capitalism and asks whether it is a sustainable system.
+      He explores the dangers of a society built on credit. He challenges the
+      myth that remorseless growth is essential. He even asks whether we should
+      rethink our roles in life – as students, parents, workers and voters – and
+      what the aims of an ideal society of the future should be.
+    </div>
+  </div>
+</div>

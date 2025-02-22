@@ -1,0 +1,113 @@
+<style>
+.book-recommendation {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+  margin: 0 auto;
+  font: 400 20px Inter, sans-serif;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 956px;
+  width: 100%;
+  padding: 107px 50px 107px 23px;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.book-cover {
+  aspect-ratio: 0.62;
+  object-fit: contain;
+  object-position: center;
+  width: 158px;
+  align-self: center;
+  max-width: 100%;
+}
+
+.book-description {
+  position: relative;
+  transform: rotate(0.002534181050204181rad);
+  margin: 42px 0 -20px;
+}
+
+.underlined-link {
+  text-decoration: underline;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
+<div class="book-recommendation">
+  <div class="content-wrapper">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ac62c408bbcfe5de3d80be8276b61e0e57f000f4b9274cb22dc16b498ffc24?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="background-image"
+      alt=""
+    />
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/594a4a9aff2429b8fa0986dfffa985e8391f9e8d8545d84fea3b359818c90f60?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="book-cover"
+      alt="Cover of Black Box Thinking book"
+    />
+    <p class="book-description">
+      <a
+        href="https://www.linkedin.com/in/processgeek/?ref=pesec.no"
+        class="underlined-link"
+        target="_blank"
+      >
+        Andrew Sandford
+      </a>
+      , who I did a
+      <a
+        href="https://www.pesec.no/lean-startup-in-the-public-sector-and-beyond/"
+        class="underlined-link"
+        target="_blank"
+      >
+        webinar
+      </a>
+       with, recommended
+      <a
+        href="https://www.penguinrandomhouse.com/books/318896/black-box-thinking-by-matthew-syed/?ref=pesec.no"
+        class="underlined-link"
+        target="_blank"
+      >
+        Black Box Thinking
+      </a>
+      : Why Most People Never Learn from Their Mistakes–But Some Do:
+      <br />
+      We all have to endure failure from time to time, whether it's
+      underperforming at a job interview, flunking an exam, or losing a pickup
+      basketball game. But for people working in safety-critical industries,
+      getting it wrong can have deadly consequences. Consider the shocking fact
+      that preventable medical error is the third-biggest killer in the United
+      States, causing more than 400,000 deaths every year. More people die from
+      mistakes made by doctors and hospitals than from traffic accidents.
+    </p>
+  </div>
+</div>

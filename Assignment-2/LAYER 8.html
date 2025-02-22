@@ -1,0 +1,135 @@
+<style>
+.settings-container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+  margin: 0 auto;
+  font: 400 32px Inter, sans-serif;
+}
+
+.settings-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 956px;
+  width: 100%;
+  align-items: center;
+  padding: 127px 12px;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.settings-title {
+  position: relative;
+}
+
+.profile-button {
+  position: relative;
+  border-radius: 50px;
+  background-color: #d06464;
+  margin-top: 67px;
+  width: 338px;
+  max-width: 100%;
+  white-space: nowrap;
+  padding: 11px 70px;
+}
+
+.terms-button {
+  position: relative;
+  border-radius: 50px;
+  background-color: #ec7979;
+  margin-top: 51px;
+  width: 338px;
+  max-width: 100%;
+  padding: 9px 70px;
+}
+
+.feedback-button {
+  position: relative;
+  border-radius: 50px;
+  background-color: #f87a7a;
+  margin-top: 51px;
+  width: 100%;
+  max-width: 338px;
+  padding: 5px 52px 14px;
+}
+
+.logout-button {
+  position: relative;
+  border-radius: 50px;
+  background-color: #ff7e7e;
+  margin-top: 51px;
+  width: 338px;
+  max-width: 100%;
+  color: #fdf4f4;
+  padding: 19px 70px 0;
+}
+
+.navigation-container {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  gap: 20px;
+  color: #000;
+  white-space: nowrap;
+  justify-content: space-between;
+  margin: 168px 0 -22px;
+}
+
+.back-button,
+.home-button {
+  border-radius: 50px;
+  background-color: #d9d9d9;
+}
+
+.back-button {
+  padding: 2px 33px;
+}
+
+.home-button {
+  padding: 4px 23px 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
+<div class="settings-container">
+  <div class="settings-content">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d1da5506907aae493fa6d8e1bd9a966c31f97c49d6ae9ed0fc9d7bc4c51b9d1?placeholderIfAbsent=true&apiKey=9352e7e076e74499b0e6634fc9b69d41"
+      class="background-image"
+      alt=""
+    />
+    <h1 class="settings-title">SETTING</h1>
+    <button class="profile-button">profile</button>
+    <button class="terms-button">All Terms</button>
+    <button class="feedback-button">Send Feedback</button>
+    <button class="logout-button">Log Out</button>
+    <div class="navigation-container">
+      <button class="back-button">BACK</button>
+      <button class="home-button">HOME</button>
+    </div>
+  </div>
+</div>
